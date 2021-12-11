@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 20rem;
+    padding-top: 20px;
+    align-items: center;
+    font-size: large;
+}
+li{
+    display: inline;
+    margin-right: 60px;
+    color:#142F38;
+}
+button{
+    color: white;
+    border-radius: 14px;
+    border: none;
+    background-color: #318161;
+    margin-left: 80px;
+    height: 70px;
+    width: 190px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+div.logo{
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-left: 5rem;
+}
+
+
+.group{
+    position: absolute;
+    z-index:100;  
+    padding-left: 67rem;
+    margin: 0;
+}
+
+.ikon {
+    position: absolute;
+    z-index:99;
+    padding-left: 67rem;
+    width: 300px;
+    height: 100px;
+    margin: 0;
+}
+
+.parent {
+    position: absolute;
+
+}
+
+.text{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 80px;
+   
+}
+.oxygen{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.text2{
+    margin-top: 19rem;
+    margin-left: 80px;
+}
+
+.grass{
+    position: relative;
+    float: right;
+}
